@@ -1,0 +1,15 @@
+package com.sterling;
+
+public class Samplerunner2 {
+   public static void main(String[] args) {
+	  Store s=new Store() {
+		 @Override
+		public void perform() {
+			// TODO Auto-generated method stub
+		   System.out.println("Store on the spot");	
+		}  
+	  };
+	  
+	  s.perform();
+    }
+}

@@ -1,0 +1,7 @@
+package com.fuctional;
+
+public class ExplainPredicate {
+  public static void main(String[] args) {
+	  Predicate<Integer> p = 
+   }
+}

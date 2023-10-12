@@ -1,0 +1,26 @@
+package com.sterling;
+
+@Functional
+public interface Store {
+   public void perform();
+   } 
+
+
+/*
+An Interface is feature in java
+which contains set of undefined methods
+
+an Interface is meant to be implemented by
+class
+
+An interface cannot have objects
+
+From java 8 onwards an interface can have
+static methods and special kind of method
+called as default methods
+
+An interface can be there without methods - Marker interface
+
+An interface with utmost one unimplemented method - functional
+interface
+*/

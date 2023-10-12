@@ -1,0 +1,25 @@
+package com.sterling;
+
+public class Samplerunner {
+   public static void main(String[] args) {
+	 Store s=new Store() {
+
+		@Override
+		public void perform() {
+			// TODO Auto-generated method stub
+			System.out.println("Sample");
+		}
+		 
+	 }; //anonymous class
+   }
+}
+
+/*
+   Reference
+   
+   Object
+   
+   Interface can have references
+   
+   cannot have objects
+*/
