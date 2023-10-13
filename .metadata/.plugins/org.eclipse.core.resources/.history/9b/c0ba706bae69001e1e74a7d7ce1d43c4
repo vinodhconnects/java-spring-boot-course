@@ -1,0 +1,17 @@
+package com.fuctional;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+public class BiFunctionExplain {
+  public static void main(String[] args) {
+	  //BinaryOperator<T>
+	  //BiFunction<Integer,Integer, Integer>  bfun= (x,y)->x>y?x:y;
+	  
+	  List<Integer> list=Arrays.asList(35,363,35636,34,353,63,6,46,757,456,47,45,775,7,45,757);
+	  
+	 Optional<Integer> result= list.stream().reduce((x,y)-> x>y?x:y);
+	 System.out.print(result.get()+" is the largets number");
+   }
+}

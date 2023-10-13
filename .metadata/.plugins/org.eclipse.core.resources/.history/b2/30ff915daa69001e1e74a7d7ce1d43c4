@@ -1,0 +1,11 @@
+package com.fuctional;
+
+import java.util.function.Supplier;
+
+public class ExplainSupplier {
+    public static void main(String[] args) {
+		Supplier<String> supply=()-> "India";
+		
+		System.out.println(supply.get());
+	}
+}
